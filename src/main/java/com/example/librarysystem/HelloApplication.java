@@ -24,6 +24,7 @@ public class HelloApplication extends Application {
     }
 
     // Ilacad, John Christopher D.
+    // BSCS
 
     @Override
     public void stop() throws Exception {
