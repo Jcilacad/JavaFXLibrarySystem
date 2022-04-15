@@ -26,6 +26,7 @@ public class HelloApplication extends Application {
     // Ilacad, John Christopher D.
     // BSCS
     // Co-Created by: Acemon Jassene G. Ladines BSCS 2-3
+    // Sample Merging of code
 
     @Override
     public void stop() throws Exception {
