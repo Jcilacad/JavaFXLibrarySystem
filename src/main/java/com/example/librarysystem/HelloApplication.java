@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
         }
     }
 
-    // comment lang
+    // Ilacad
 
     @Override
     public void stop() throws Exception {
