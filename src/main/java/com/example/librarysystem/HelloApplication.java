@@ -23,6 +23,8 @@ public class HelloApplication extends Application {
         }
     }
 
+    // comment lang
+
     @Override
     public void stop() throws Exception {
         try {
