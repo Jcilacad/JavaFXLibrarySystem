@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
         }
     }
 
-    // Ilacad
+    // Ilacad, John Christopher
 
     @Override
     public void stop() throws Exception {
