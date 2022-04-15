@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<DialogPane fx:id="checkBookDialog" fx:controller="com.example.librarysystem.CheckBookController" xmlns:fx="https://javafx.com/fxml">
+    <content>
+        <GridPane alignment="CENTER" hgap="10" vgap="10">
+            <Label text="Title: " GridPane.rowIndex="1" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="titleField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <Label text="Author: " GridPane.rowIndex="2" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="authorField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label text="Theme: " GridPane.rowIndex="3" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="themeField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>

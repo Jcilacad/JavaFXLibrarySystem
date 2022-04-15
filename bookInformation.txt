@@ -1,0 +1,3 @@
+Plant	Ilacad	Nature	20
+Annabelle	Paul	Horror	30
+Naruto	Ilacad	Anime	2013

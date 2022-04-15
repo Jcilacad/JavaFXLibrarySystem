@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="300.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <BorderPane prefHeight="257.0" prefWidth="533.0">
+            <center>
+
+                <Label text="The Library System project that was created by Mr. Ilacad was initialized on February 18, 2022. It was his idea to develop his skill by just applying all the concepts that he has learned in his online course that was instructed by Mr. Tim Buchalka. His passion in programming made this system created. The concept of this system was first introduced by Mr. Ilacad when he was studying C and C++ Programming language. Since he was taking a Java Programming in his Online Course. He therefore concludes to re-create the system in newly learned programming language which is Java.
+
+  &#10; &#10; &#10; The system was a developing project of Mr. Ilacad. Since the time he was creating it was also the time when he starts to learn the Java Programming Language. The project starts the greatness of Mr. Ilacad in the field of Computer Science.
+" alignment="CENTER" wrapText="true" style="-fx-font-family: 'Arial'; -fx-font-size: 15; -fx-fit-to-width: true"/>
+            </center>
+        </BorderPane>
+    </content>
+</DialogPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<DialogPane fx:controller="com.example.librarysystem.ReserveStudentController" xmlns:fx="https://javafx.com/fxml">
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="ID Number: " GridPane.rowIndex="0" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="idNumber" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label text="Name: " GridPane.rowIndex="1" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="name" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+            <Label text="Section: " GridPane.rowIndex="2" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="section" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label text="Contact Number: " GridPane.rowIndex="3" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="contactNumber" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+            <Label text="Title of Book: " GridPane.rowIndex="4" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+           <TextField fx:id="titleOfBook" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+            <Label text="Author of Book: " GridPane.rowIndex="5" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="authorOfBook" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+            <Label text="Quantity: " GridPane.rowIndex="6" GridPane.columnIndex="0">
+                <font>
+                    <Font name="Arial bold" size="20"/>
+                </font>
+            </Label>
+            <TextField fx:id="quantity" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+        </GridPane>
+
+    </content>
+</DialogPane>

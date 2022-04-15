@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.text.Font?>
+<DialogPane prefHeight="392.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarysystem.BookController">
+    <content>
+        <GridPane alignment="CENTER" hgap="10" vgap="10">
+            <Label text="Title: " GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="titleField" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+            <Label text="Theme: " GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="themeField" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label text="Author: " GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="authorField" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Label text="Quantity: " GridPane.columnIndex="0" GridPane.rowIndex="3">
+                <font>
+                    <Font name="Arial bold" size="15"/>
+                </font>
+            </Label>
+            <TextField fx:id="quantityField" prefHeight="50.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints halignment="CENTER" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </content>
+
+</DialogPane>
